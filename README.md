@@ -1,12 +1,12 @@
 # Touch FX for XDJ-AZ
 
-By mrdjjag. **Current review version: 0.8.4, adapted to AZ-MODS 1.2.7.**
+By mrdjjag. **Current review version: 0.9.1, adapted to AZ-MODS 1.2.8.**
 
-[Download the complete 0.8.4 source archive](Touch-FX-0.8.4-public-source-draft.zip). It contains the panel, custom core/audio source, build and restore instructions, licences and verification notes. Earlier archives remain historical versions.
+[Download the complete 0.9.1 source archive](Touch-FX-0.9.1-public-source-draft.zip). It contains the panel, custom core/audio source, build and restore instructions, licences and verification notes. Earlier archives remain historical versions.
 
-## New in 0.8.4
+## New in 0.9.1
 
-For AZ-MODS 1.2.7. Echo and Gate can now target Vocals, Instrument and Bass separately or together; Drums are excluded. Switching effects preserves the selection. Press the current effect again to clear selections and release FX; the next fresh touch affects the whole mix. Other effects still affect the whole mix.
+STEMS and Drum Roll now fit the compact 4 DECK view with deck information shown or hidden. This update also includes selected-stem Echo and Gate, stronger STEMS tint in Colour and Transparent modes, and a soft reminder around attenuated STEMS labels.
 
 ## Features
 
@@ -16,7 +16,7 @@ For AZ-MODS 1.2.7. Echo and Gate can now target Vocals, Instrument and Bass sepa
 - STEMS beat choices: 4, 2, 1, 3/4, 1/2, 1/4, 1/8, 1/16, following live BPM.
 - EQ/pad-linked dimming, optional touch control of Kyle's native STEMS boxes and sampler bank shortcuts.
 - Pointer style and colours remain selectable. Opening button is now always small beside A.CUE; trail size is fixed to Full. The module registers 16 settings.
-- Upstream 1.2.7 STEMS pad FX and Drum Roll HOLD code retained; empty-deck master beat sync also works through the sampler Touch FX render path.
+- Upstream 1.2.8 STEMS pad FX and Drum Roll HOLD code retained; empty-deck master beat sync also works through the sampler Touch FX render path.
 
 ## Requirements and status
 
@@ -24,7 +24,7 @@ For AZ-MODS 1.2.7. Echo and Gate can now target Vocals, Instrument and Bass sepa
 
 **Matching customised azmod.so AND azstem.so libraries are required. This is not a standalone one-click Community Mod.**
 
-The author reports this version working on XDJ-AZ firmware 2.01. The new 56 selected-stem audio scenarios and panel regressions passed. Earlier upstream/sampler checks are documented in VALIDATION.md. Live combined-effect testing is limited; other firmware versions and a fresh USB installation have not been verified. This is an independent custom build, not an official or signed AZ-MODS release.
+The author reports this version working on XDJ-AZ firmware 2.01. Local audio, geometry and panel tests passed. The author tested the compact 4 DECK fix on firmware 2.01. Live combined-effect testing is limited; other firmware versions and a fresh USB installation have not been verified. This is an independent custom build, not an official or signed AZ-MODS release.
 
 No custom core binaries, firmware images, database key bytes or private settings are included. See BUILD.md, INSTALL.md, RESTORE.md, VALIDATION.md and VERIFICATION.json inside the archive. The source is shared for review and feedback; upstream acceptance is not confirmed.
 
